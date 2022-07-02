@@ -1,0 +1,151 @@
+/*
+Criado em: 02/10/2015, 14:05:23
+Autor: Guilherme Driemeyer Reis, Julia da Silva e Maria Eduarda Fagundes
+aula15 de webdesign
+AI Programador de Computador
+*/
+
+/*Resset*/
+*{margin: 0; padding: 0;}
+.final{clear: both;} /*Finaliza o float*/
+
+body{
+    background-color: deepskyblue;
+    color: maroon;
+    font-size: 24px;
+    font-family: cursive;
+}
+h1{text-align: center;}
+/*Colunas*/
+.col1{width: 98%;}
+.col2{width: 47%; float:left; margin-right: 20px;}
+.col3{width: 31%; float:left; margin-right: 15px;}
+
+/*Seção*/
+article{
+    width: 100%; height: 800px;
+    box-shadow: 0 3px 10px black;
+    padding-left: 1%;
+    padding-top: 50px;
+}
+
+/*Identificadores #ID*/
+#intro{
+    background-color: blueviolet;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/marprofundo.jpg);
+}
+
+#lulavampiro{
+    background-color: green;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/deep-blue-hd.jpg);
+}
+
+#diabonegro{
+    background-color: crimson;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/monster-in-the-deep.jpg);
+}
+
+#lulacolossal{
+    background-color: darkviolet;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/HYPENESS_INTERNA_1000X600_River.jpg);
+}
+
+#tubarao{
+    background-color:goldenrod;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/profundezas_oceano_rio_1.jpg);
+}
+
+#polvo{
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/19b1dadf6980da7ca263f5d122ba586d.jpg);
+}
+
+#arfish{
+    background-color: blue;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-image: url(../img/oceanoooo.jpg);
+}
+
+article{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Estilizando o Menu*/
+nav{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: transparent;
+    box-shadow: 3px 0 10px black;
+    z-index: 100;
+}
+ul{list-style: none;}
+li{
+    display: inline;
+    padding: 10px;
+    border-left: 1px green solid;
+}
+li:first-child{border:none;}
+
+/*Estilizando o link*/
+li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+footer{
+    width: 100%; height: 45px;
+    box-shadow: 0 3px 10px white;
+    padding-left: 0.5%;
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    bottom: 0;
+    text-shadow: 0px 1px 2px white;
+    color: red;
+    font-size: 15px; 
+    font-style: oblique;
+}
+
+.window{
+    display:none;
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}
